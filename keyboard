@@ -1,0 +1,10 @@
+Extend capslock as Ctrl
+1.  Open the following for editing:
+
+          sudo vim /etc/default/keyboard
+          And edit
+          XKBOPTIONS="ctrl:nocaps"
+
+2. Then, reconfigure:
+
+   sudo dpkg-reconfigure keyboard-configuration
